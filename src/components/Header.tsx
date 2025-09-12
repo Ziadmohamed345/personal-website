@@ -40,10 +40,16 @@ const Header = () => {
                 {item.label}
               </button>
             ))}
-            <Button variant="outline" size="sm" className="ml-4">
-              <Download className="w-4 h-4 mr-2" />
-              Resume
-            </Button>
+            <a
+              href="/assets/Ziad_Mohamed_CV_.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="outline" size="sm" className="ml-4">
+                <Download className="w-4 h-4 mr-2" />
+                Resume
+              </Button>
+            </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -51,7 +57,11 @@ const Header = () => {
             className="md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {isMenuOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
           </button>
         </div>
 
@@ -68,10 +78,12 @@ const Header = () => {
                   {item.label}
                 </button>
               ))}
-              <Button variant="outline" size="sm" className="w-fit">
-                <Download className="w-4 h-4 mr-2" />
-                Resume
-              </Button>
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" size="sm" className="w-fit">
+                  <Download className="w-4 h-4 mr-2" />
+                  Resume
+                </Button>
+              </a>
             </div>
           </nav>
         )}

@@ -80,14 +80,29 @@ const Skills = () => {
                 {/* Timeline items */}
                 <div className="space-y-12">
                   <div className="flex items-center md:justify-between">
-                    <div className="flex-1 md:text-right md:pr-8">
+                    <div className="absolute left-4 md:left-1/2 w-4 h-4 bg-accent rounded-full transform -translate-x-2 md:-translate-x-2 border-2 border-background" />
+                    <div className="flex-1 md:pl-8">
                       <Card className="ml-12 md:ml-0 border-border">
                         <CardContent className="p-6">
                           <h4 className="font-bold text-lg text-foreground mb-2">ITI Full Stack Development Training</h4>
                           <p className="text-primary font-medium text-sm mb-2">Current</p>
                           <p className="text-muted-foreground text-sm">
-                            Intensive training program focusing on modern web development technologies
-                            including React, Angular, C#, and ASP.NET Core
+                            Hands-on training in modern web technologies including React, Angular, C#, and ASP.NET Core.
+                          </p>
+                        </CardContent>
+                      </Card>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center md:justify-between">
+                    <div className="flex-1 md:text-right md:pr-8">
+                      <Card className="ml-12 md:ml-0 border-border">
+                        <CardContent className="p-6">
+                          <h4 className="font-bold text-lg text-foreground mb-2">Algoriza Full Stack Internship</h4>
+                          <p className="text-primary font-medium text-sm mb-2">Current</p>
+                          <p className="text-muted-foreground text-sm">
+                            Developing web applications with ASP.NET Core, React.js, and SQL Server. 
+                            Designing RESTful APIs and collaborating in Agile teams using GitHub and Jira.
                           </p>
                         </CardContent>
                       </Card>
@@ -100,11 +115,11 @@ const Skills = () => {
                     <div className="flex-1 md:pl-8">
                       <Card className="ml-12 md:ml-0 border-border">
                         <CardContent className="p-6">
-                          <h4 className="font-bold text-lg text-foreground mb-2">Startup Competitions Leadership</h4>
-                          <p className="text-primary font-medium text-sm mb-2">2024</p>
+                          <h4 className="font-bold text-lg text-foreground mb-2">Toastmasters Guest Speaker & Best Speaker Award</h4>
+                          <p className="text-primary font-medium text-sm mb-2">2024 – Present</p>
                           <p className="text-muted-foreground text-sm">
-                            Led development teams in Tatweer Misr Pitching Competition and Egyptian Startup Olympics,
-                            managing collaboration through GitHub, Slack, and Jira
+                            Active guest speaker at Toastmasters International. Recognized for 
+                            outstanding public speaking with a Best Speaker award, enhancing leadership and communication skills.
                           </p>
                         </CardContent>
                       </Card>
@@ -115,11 +130,43 @@ const Skills = () => {
                     <div className="flex-1 md:text-right md:pr-8">
                       <Card className="ml-12 md:ml-0 border-border">
                         <CardContent className="p-6">
-                          <h4 className="font-bold text-lg text-foreground mb-2">Toastmasters Best Speaker Award</h4>
+                          <h4 className="font-bold text-lg text-foreground mb-2">Software Engineering Teaching Assistant – Nile University</h4>
                           <p className="text-primary font-medium text-sm mb-2">2024</p>
                           <p className="text-muted-foreground text-sm">
-                            Recognized for outstanding public speaking and presentation skills,
-                            enhancing leadership and communication abilities
+                            Supported 50+ students in Data Structures, Algorithms, and Software Engineering labs, 
+                            improving project quality and providing debugging guidance.
+                          </p>
+                        </CardContent>
+                      </Card>
+                    </div>
+                    <div className="absolute left-4 md:left-1/2 w-4 h-4 bg-primary rounded-full transform -translate-x-2 md:-translate-x-2 border-2 border-background" />
+                  </div>
+
+                  <div className="flex items-center md:justify-between">
+                    <div className="absolute left-4 md:left-1/2 w-4 h-4 bg-accent rounded-full transform -translate-x-2 md:-translate-x-2 border-2 border-background" />
+                    <div className="flex-1 md:pl-8">
+                      <Card className="ml-12 md:ml-0 border-border">
+                        <CardContent className="p-6">
+                          <h4 className="font-bold text-lg text-foreground mb-2">Backend Developer Intern – Key2Soft</h4>
+                          <p className="text-primary font-medium text-sm mb-2">2023 – 2024</p>
+                          <p className="text-muted-foreground text-sm">
+                            Built backend modules with ASP.NET Boilerplate, optimized MSSQL queries, 
+                            and implemented secure authentication to improve system performance.
+                          </p>
+                        </CardContent>
+                      </Card>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center md:justify-between">
+                    <div className="flex-1 md:text-right md:pr-8">
+                      <Card className="ml-12 md:ml-0 border-border">
+                        <CardContent className="p-6">
+                          <h4 className="font-bold text-lg text-foreground mb-2">Startup Competitions Leadership</h4>
+                          <p className="text-primary font-medium text-sm mb-2">2024</p>
+                          <p className="text-muted-foreground text-sm">
+                            Led development teams in Tatweer Misr Pitching Competition and Egyptian Startup Olympics,
+                            managing collaboration through GitHub, Slack, and Jira
                           </p>
                         </CardContent>
                       </Card>

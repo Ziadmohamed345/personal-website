@@ -56,7 +56,6 @@ const Footer = () => {
             <div className="flex items-center space-x-1">
               <span>© {currentYear} Ziad Mohamed. Built with</span>
               <Heart className="w-4 h-4 text-red-500 fill-current" />
-              <span>using React & Tailwind CSS</span>
             </div>
             
             <div className="flex items-center space-x-6">

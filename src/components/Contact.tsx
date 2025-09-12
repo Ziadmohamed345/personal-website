@@ -6,7 +6,15 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Badge } from "@/components/ui/badge";
 import { useToast } from "@/hooks/use-toast";
-import { Mail, MessageSquare, MapPin, Clock, Send, Github, Linkedin } from "lucide-react";
+import {
+  Mail,
+  MessageSquare,
+  MapPin,
+  Clock,
+  Send,
+  Github,
+  Linkedin,
+} from "lucide-react";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -14,15 +22,17 @@ const Contact = () => {
     name: "",
     email: "",
     company: "",
-    message: ""
+    message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
 
@@ -45,19 +55,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "ziad.mohamed@example.com",
-      href: "mailto:ziad.mohamed@example.com"
+      value: "ziadmohamed345@gmail.com",
+      href: "mailto:ziadmohamed345@gmail.com",
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "Cairo, Egypt"
+      value: "Giza, Egypt",
     },
     {
       icon: Clock,
       title: "Response Time",
-      value: "Within 24 hours"
-    }
+      value: "Within 24 hours",
+    },
   ];
 
   return (
@@ -67,10 +77,14 @@ const Contact = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Let's Build Something <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Together</span>
+              Let's Build Something{" "}
+              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                Together
+              </span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Ready to collaborate on your next project? I'd love to hear about your ideas and discuss how I can help bring them to life.
+              Ready to collaborate on your next project? I'd love to hear about
+              your ideas and discuss how I can help bring them to life.
             </p>
           </div>
 
@@ -140,9 +154,9 @@ const Contact = () => {
                       />
                     </div>
 
-                    <Button 
-                      type="submit" 
-                      size="lg" 
+                    <Button
+                      type="submit"
+                      size="lg"
                       disabled={isSubmitting}
                       className="w-full bg-primary hover:bg-primary/90 text-primary-foreground"
                     >
@@ -174,9 +188,11 @@ const Contact = () => {
                         <info.icon className="w-5 h-5 text-primary" />
                       </div>
                       <div>
-                        <p className="font-medium text-foreground">{info.title}</p>
+                        <p className="font-medium text-foreground">
+                          {info.title}
+                        </p>
                         {info.href ? (
-                          <a 
+                          <a
                             href={info.href}
                             className="text-muted-foreground hover:text-primary transition-colors"
                           >
@@ -199,13 +215,17 @@ const Contact = () => {
                 <CardContent className="space-y-4">
                   <div className="flex items-center space-x-2">
                     <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-                    <Badge variant="secondary" className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
+                    <Badge
+                      variant="secondary"
+                      className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200"
+                    >
                       Available for Projects
                     </Badge>
                   </div>
                   <p className="text-muted-foreground text-sm">
-                    Currently accepting new freelance projects and full-time opportunities. 
-                    Looking for roles in full-stack development, especially in tech companies and startups.
+                    Currently accepting new freelance projects and full-time
+                    opportunities. Looking for roles in full-stack development,
+                    especially in tech companies and startups.
                   </p>
                 </CardContent>
               </Card>
@@ -218,7 +238,7 @@ const Contact = () => {
                 <CardContent>
                   <div className="flex space-x-4">
                     <a
-                      href="https://github.com"
+                      href="https://github.com/Ziadmohamed345"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex-1 p-4 bg-secondary/50 hover:bg-primary/10 rounded-lg border border-border hover:border-primary transition-all duration-300 group text-center"
@@ -227,7 +247,7 @@ const Contact = () => {
                       <p className="text-sm font-medium">GitHub</p>
                     </a>
                     <a
-                      href="https://linkedin.com"
+                      href="https://www.linkedin.com/in/ziaddmohamedd/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex-1 p-4 bg-secondary/50 hover:bg-primary/10 rounded-lg border border-border hover:border-primary transition-all duration-300 group text-center"
