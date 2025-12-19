@@ -50,28 +50,26 @@ const About = () => {
             {/* Bio Content */}
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-foreground">
-                I am <strong>Ziad Mohamed</strong>, a software developer and ITI
-                trainee with a passion for building modern, user-focused web
-                applications. My technical expertise spans frontend and backend
-                development, with hands-on experience in frameworks like React
-                and Angular, alongside C#, ASP.NET, and SQL Server.
+                I'm a <strong>Software Engineer</strong> with a passion for
+                building thoughtful digital experiences, both in code and in
+                design. My journey is rooted in a blend of technical skill and
+                creative vision, shaped by my Computer Science degree and
+                refined through hands-on development at ITI.
               </p>
 
               <p className="text-lg leading-relaxed text-muted-foreground">
-                I enjoy bridging design and functionality, creating applications
-                that are both visually appealing and highly functional. In
-                addition to my technical journey, I have participated in startup
-                competitions such as the Tatweer Misr Pitching Competition and
-                the Egyptian Startup Olympics.
+                I specialize in full-stack development with .NET & Angular,
+                crafting clean, scalable applications that solve real problems.
+                Whether working with clients as a freelancer or collaborating in
+                teams, I aim to bridge functionality with meaningful user
+                interaction.
               </p>
 
               <p className="text-lg leading-relaxed text-muted-foreground">
-                Beyond coding, I am a Best Speaker award winner at Toastmasters
-                Internation Club, where I refined my public speaking and
-                leadership abilities. My portfolio showcases not only my
-                technical projects but also my growth as a communicator, leader,
-                and developer committed to delivering value-driven technology
-                solutions.
+                When I'm not coding, I'm often speaking at Toastmasters,
+                coaching rowing, or exploring the next challenge, always driven
+                by curiosity, consistency, and the desire to build something
+                worthwhile.
               </p>
             </div>
 

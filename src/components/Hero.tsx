@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const Hero = () => {
   const [typedText, setTypedText] = useState("");
-  const fullText = "I'm Ziad Mohamed,\na Software Developer";
+  const fullText = "I'm Ziad Abdelaal,\na Software Engineer";
   const [done, setDone] = useState(false);
   useEffect(() => {
     let i = 0;
@@ -46,12 +46,12 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               <span
                 className="block text-foreground max-w-xl mx-auto whitespace-pre-line"
-                style={{ minHeight: "2.4em" }}
+                style={{ minHeight: "2em" }}
               >
                 <span className="text-5xl md:text-7xl">
                   {done ? (
                     <>
-                      <span>I'm Ziad Mohamed,</span>
+                      <span>I'm Ziad Abdelaal,</span>
                       <br />
                       <span>a Software Engineer</span>
                     </>

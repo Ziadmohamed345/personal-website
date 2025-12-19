@@ -11,7 +11,7 @@ const Footer = () => {
             {/* Brand */}
             <div className="text-center md:text-left">
               <div className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-2">
-                Ziad Mohamed
+                Ziad Abdelaal
               </div>
               <p className="text-muted-foreground text-sm">
                 Software Engineer • Freelancer • Toastmasters Speaker
@@ -54,24 +54,24 @@ const Footer = () => {
           {/* Bottom Section */}
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-sm text-muted-foreground">
             <div className="flex items-center space-x-1">
-              <span>© {currentYear} Ziad Mohamed. Built with</span>
+              <span>© {currentYear} Ziad Abdelaal. Built with</span>
               <Heart className="w-4 h-4 text-red-500 fill-current" />
             </div>
-            
+
             <div className="flex items-center space-x-6">
-              <a 
-                href="#home" 
+              <a
+                href="#home"
                 className="hover:text-primary transition-colors duration-200"
                 onClick={(e) => {
                   e.preventDefault();
-                  document.querySelector('#home')?.scrollIntoView({ behavior: 'smooth' });
+                  document
+                    .querySelector("#home")
+                    ?.scrollIntoView({ behavior: "smooth" });
                 }}
               >
                 Back to Top
               </a>
-              <span className="text-xs opacity-60">
-                Available for hire
-              </span>
+              <span className="text-xs opacity-60">Available for hire</span>
             </div>
           </div>
         </div>
