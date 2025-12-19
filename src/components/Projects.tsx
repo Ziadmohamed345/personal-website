@@ -6,6 +6,34 @@ import { ExternalLink, Github, Smartphone, Monitor } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
+      id: "arabni",
+      title: "Arabni MaaS App",
+      description:
+        "A Mobility-as-a-Service app that integrates different transportation options into one platform for a seamless travel experience across Cairo.",
+      role: "Team Leader & Developer",
+      type: "Mobile Application",
+      icon: Smartphone,
+      technologies: [
+        "Flutter",
+        "Firebase",
+        "Jupyter",
+        "Python",
+        "Figma",
+        "GitHub",
+        "Slack",
+        "Jira",
+      ],
+      liveUrl: "https://arabni-project-showecase-yby7.vercel.app/",
+      codeUrl: "#",
+      image: "/public/assets/Arabni/Arabni Screens_page-0010.jpg",
+      features: [
+        "Multi-modal transport integration",
+        "Real-time route optimization",
+        "Seamless payment system",
+        "User-friendly mobile interface",
+      ],
+    },
+    {
       id: "qurenet",
       title: "Qurenet Healthcare Platform",
       description:
@@ -22,35 +50,6 @@ const Projects = () => {
         "Secure telemedicine integration",
         "Real-time service management",
         "Healthcare data encryption",
-      ],
-    },
-    {
-      id: "arabni",
-      title: "Arabni Mobility App",
-      description:
-        "A Mobility-as-a-Service app that integrates different transportation options into one platform for a seamless travel experience across Cairo.",
-      role: "Team Leader & Developer",
-      type: "Mobile Application",
-      icon: Smartphone,
-      technologies: [
-        "Flutter",
-        "Firebase",
-        "Jupyter",
-        "Python",
-        "Figma",
-        "GitHub",
-        "Slack",
-        "Jira",
-      ],
-      liveUrl:
-        "https://www.figma.com/proto/IS5GgZmgNT7F0jTtaUWYJZ/Arabni-Screens?node-id=0-189&t=ox9GyeYPfVCdgC8B-1",
-      codeUrl: "#",
-      image: "/public/assets/Arabni/Arabni Screens_page-0010.jpg",
-      features: [
-        "Multi-modal transport integration",
-        "Real-time route optimization",
-        "Seamless payment system",
-        "User-friendly mobile interface",
       ],
     },
     {

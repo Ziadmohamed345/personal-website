@@ -53,7 +53,7 @@ const Hero = () => {
                     <>
                       <span>I'm Ziad Mohamed,</span>
                       <br />
-                      <span>a Software Developer</span>
+                      <span>a Software Engineer</span>
                     </>
                   ) : (
                     typedText

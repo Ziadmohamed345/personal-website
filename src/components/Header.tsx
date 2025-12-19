@@ -41,7 +41,7 @@ const Header = () => {
               </button>
             ))}
             <a
-              href="/assets/Ziad_Mohamed_CV_.pdf"
+              href="/public/assets/Ziad_Abdelaal_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
