@@ -14,7 +14,7 @@ const Footer = () => {
                 Ziad Mohamed
               </div>
               <p className="text-muted-foreground text-sm">
-                Full Stack Developer • ITI Trainee • Toastmaster
+                Software Engineer • Freelancer • Toastmasters Speaker
               </p>
             </div>
 

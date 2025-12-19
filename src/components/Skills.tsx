@@ -152,7 +152,7 @@ const Skills = () => {
                       <Card className="ml-12 md:ml-0 border-border">
                         <CardContent className="p-6">
                           <h4 className="font-bold text-lg text-foreground mb-2 leading-tight">
-                            Toastmasters Member
+                            Toastmasters Speaker
                           </h4>
                           <p className="text-primary font-medium text-sm mb-3">
                             May 2024 – Present
