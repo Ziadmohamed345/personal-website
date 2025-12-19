@@ -46,9 +46,9 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               <span
                 className="block text-foreground max-w-xl mx-auto whitespace-pre-line"
-                style={{ minHeight: "2em" }}
+                style={{ minHeight: "1em" }}
               >
-                <span className="text-5xl md:text-7xl">
+                <span className="text-5xl md:text-12xl">
                   {done ? (
                     <>
                       <span>I'm Ziad Abdelaal,</span>
@@ -63,7 +63,7 @@ const Hero = () => {
                   </span>
                 </span>
               </span>
-              <span className="block bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent leading-tight pb-2">
+              <span className="block bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent leading-tight pb-2 text-5xl md:text-12xl">
                 Busy Creating a life I love.
               </span>
             </h1>

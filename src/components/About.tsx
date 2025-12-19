@@ -58,11 +58,11 @@ const About = () => {
               </p>
 
               <p className="text-lg leading-relaxed text-muted-foreground">
-                I specialize in full-stack development with .NET & Angular,
-                crafting clean, scalable applications that solve real problems.
-                Whether working with clients as a freelancer or collaborating in
-                teams, I aim to bridge functionality with meaningful user
-                interaction.
+                I specialize in full-stack development with .NET, Angular &
+                React, crafting clean, scalable applications that solve real
+                problems. Whether working with clients as a freelancer or
+                collaborating in teams, I aim to bridge functionality with
+                meaningful user interaction.
               </p>
 
               <p className="text-lg leading-relaxed text-muted-foreground">
