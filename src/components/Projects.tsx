@@ -23,9 +23,9 @@ const Projects = () => {
         "Slack",
         "Jira",
       ],
-      liveUrl: "https://arabni-project-showecase-yby7.vercel.app/",
-      codeUrl: "#",
-      image: "/public/assets/Arabni/Arabni Screens_page-0010.jpg",
+      projectShowcase: "https://arabni-project-showecase-yby7.vercel.app/",
+      codeUrl: "https://github.com/Ziadmohamed345/arabni-project-showecase.git",
+      image: "assets/Arabni/ArabniScreens_page-0010.png",
       features: [
         "Multi-modal transport integration",
         "Real-time route optimization",
@@ -43,7 +43,7 @@ const Projects = () => {
       icon: Monitor,
       technologies: ["ASP.NET", "C#", "MS SQL Server", "Web API", "Healthcare"],
       liveUrl: "https://qurenet.com/",
-      codeUrl: "#",
+      codeUrl: "",
       image: "/assets/Qurenet/HomePage.png",
       features: [
         "Patient-provider appointment system",
@@ -62,7 +62,7 @@ const Projects = () => {
       icon: Monitor,
       technologies: ["ASP.NET", "C#", "MS SQL Server", "Web API"],
       liveUrl: "https://rungroop.com/",
-      codeUrl: "#",
+      codeUrl: "https://github.com/Ziadmohamed345/RunGroopWebApp.git",
       image: "/assets/Rungroop/HomePage.png",
       features: [
         "Connects runners with local groups and events",
@@ -199,7 +199,9 @@ const Projects = () => {
                           rel="noopener noreferrer"
                         >
                           <ExternalLink className="w-4 h-4 mr-2 group-hover/btn:scale-110 transition-transform" />
-                          View Live
+                          {project.id === "arabni"
+                            ? "Project Showcase"
+                            : "View Live"}
                         </a>
                       </Button>
                       <Button variant="outline" asChild>
