@@ -7,7 +7,7 @@ const Projects = () => {
   const projects = [
     {
       id: "egycan",
-      title: "EGYCan",
+      title: "EGYCan Factory Website",
       description:
         "A comprehensive business platform designed to provide innovative solutions for enterprises. Features a modern interface with product browsing, service management, and customer engagement tools.",
       role: "Full-stack Developer",
