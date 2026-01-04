@@ -51,25 +51,24 @@ const About = () => {
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-foreground">
                 I'm a <strong>Software Engineer</strong> with a passion for
-                building thoughtful digital experiences, both in code and in
-                design. My journey is rooted in a blend of technical skill and
-                creative vision, shaped by my Computer Science degree and
-                refined through hands-on development at ITI.
+                building digital solutions that make a meaningful impact. Since
+                2020, I've been working as a freelancer, helping clients bring
+                their ideas to life through thoughtful design and clean,
+                efficient code.
               </p>
 
               <p className="text-lg leading-relaxed text-muted-foreground">
-                I specialize in full-stack development with .NET, Angular &
-                React, crafting clean, scalable applications that solve real
-                problems. Whether working with clients as a freelancer or
-                collaborating in teams, I aim to bridge functionality with
-                meaningful user interaction.
+                I primarily work with React to build modern, scalable web
+                applications that solve real problems. Over the past years, I've
+                collaborated with diverse clients and teams, always aiming to
+                bridge functionality with meaningful user experiences.
               </p>
 
               <p className="text-lg leading-relaxed text-muted-foreground">
                 When I'm not coding, I'm often speaking at Toastmasters,
-                coaching rowing, or exploring the next challenge, always driven
-                by curiosity, consistency, and the desire to build something
-                worthwhile.
+                practicing rowing, or exploring the next challenge, always
+                driven by curiosity, consistency, and the desire to build
+                something worthwhile.
               </p>
             </div>
 

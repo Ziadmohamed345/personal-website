@@ -6,6 +6,25 @@ import { ExternalLink, Github, Smartphone, Monitor } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
+      id: "egycan",
+      title: "EGYCan",
+      description:
+        "A comprehensive business platform designed to provide innovative solutions for enterprises. Features a modern interface with product browsing, service management, and customer engagement tools.",
+      role: "Full-stack Developer",
+      type: "Web Application",
+      icon: Monitor,
+      technologies: ["React", "TypeScript", "CSS", "Responsive Design"],
+      liveUrl: "https://egycan.vercel.app/",
+      codeUrl: "",
+      image: "assets/EGYCan/Egycan-pic.png",
+      features: [
+        "Modern responsive design",
+        "Product catalog and browsing",
+        "Business service management",
+        "Customer engagement interface",
+      ],
+    },
+    {
       id: "arabni",
       title: "Arabni MaaS App",
       description:
@@ -110,7 +129,7 @@ const Projects = () => {
                     <div className="relative">
                       <div
                         className={`${
-                          ["qurenet", "rungroop"].includes(project.id)
+                          ["egycan", "qurenet", "rungroop"].includes(project.id)
                             ? "w-100 h-100"
                             : "w-80 h-100"
                         } bg-gradient-to-br from-primary/10 to-accent/10 rounded-xl flex items-center justify-center border border-border overflow-hidden`}
@@ -120,7 +139,9 @@ const Projects = () => {
                             src={project.image}
                             alt={project.title + " screenshot"}
                             className={`object-cover rounded-xl ${
-                              ["qurenet", "rungroop"].includes(project.id)
+                              ["egycan", "qurenet", "rungroop"].includes(
+                                project.id
+                              )
                                 ? "w-100 h-full"
                                 : "w-full h-full"
                             }`}
@@ -204,16 +225,18 @@ const Projects = () => {
                             : "View Live"}
                         </a>
                       </Button>
-                      <Button variant="outline" asChild>
-                        <a
-                          href={project.codeUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <Github className="w-4 h-4 mr-2" />
-                          View Code
-                        </a>
-                      </Button>
+                      {project.codeUrl && (
+                        <Button variant="outline" asChild>
+                          <a
+                            href={project.codeUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <Github className="w-4 h-4 mr-2" />
+                            View Code
+                          </a>
+                        </Button>
+                      )}
                     </div>
                   </div>
                 </div>
