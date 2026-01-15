@@ -14,6 +14,7 @@ import {
   Send,
   Github,
   Linkedin,
+  Briefcase,
 } from "lucide-react";
 
 const Contact = () => {
@@ -254,6 +255,15 @@ const Contact = () => {
                     >
                       <Linkedin className="w-6 h-6 mx-auto mb-2 text-muted-foreground group-hover:text-primary transition-colors" />
                       <p className="text-sm font-medium">LinkedIn</p>
+                    </a>
+                    <a
+                      href="http://www.fiverr.com/s/dDz90pG"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 p-4 bg-secondary/50 hover:bg-primary/10 rounded-lg border border-border hover:border-primary transition-all duration-300 group text-center"
+                    >
+                      <img src="/assets/fiverr-logo.svg" alt="Fiverr" className="w-6 h-6 mx-auto mb-2 grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all" />
+                      <p className="text-sm font-medium">Fiverr</p>
                     </a>
                   </div>
                 </CardContent>

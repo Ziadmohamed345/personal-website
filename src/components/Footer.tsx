@@ -21,7 +21,7 @@ const Footer = () => {
             {/* Social Links */}
             <div className="flex items-center space-x-6">
               <a
-                href="https://github.com"
+                href="https://github.com/Ziadmohamed345"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-muted-foreground hover:text-primary transition-colors duration-200 hover:scale-110 transform"
@@ -30,7 +30,7 @@ const Footer = () => {
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/ziaddmohamedd/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-muted-foreground hover:text-primary transition-colors duration-200 hover:scale-110 transform"
@@ -39,7 +39,16 @@ const Footer = () => {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="mailto:ziad.mohamed@example.com"
+                href="http://www.fiverr.com/s/dDz90pG"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 text-muted-foreground hover:text-primary transition-colors duration-200 hover:scale-110 transform"
+                aria-label="Fiverr Profile"
+              >
+                <img src="/assets/fiverr-logo.svg" alt="Fiverr" className="w-5 h-5 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
+              </a>
+              <a
+                href="mailto:ziadmohamed345@gmail.com"
                 className="p-2 text-muted-foreground hover:text-primary transition-colors duration-200 hover:scale-110 transform"
                 aria-label="Email Contact"
               >
