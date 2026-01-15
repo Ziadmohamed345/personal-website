@@ -117,7 +117,11 @@ const Hero = () => {
                 rel="noopener noreferrer"
                 className="p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300 group"
               >
-                <img src="/assets/fiverr-logo.svg" alt="Fiverr" className="w-6 h-6 grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all" />
+                <img
+                  src="/assets/fiverr-logo.svg"
+                  alt="Fiverr"
+                  className="w-6 h-6 grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all"
+                />
               </a>
               <a
                 href="mailto:ziadmohamed345@gmail.com"

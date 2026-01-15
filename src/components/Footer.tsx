@@ -45,7 +45,11 @@ const Footer = () => {
                 className="p-2 text-muted-foreground hover:text-primary transition-colors duration-200 hover:scale-110 transform"
                 aria-label="Fiverr Profile"
               >
-                <img src="/assets/fiverr-logo.svg" alt="Fiverr" className="w-5 h-5 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
+                <img
+                  src="/assets/fiverr-logo.svg"
+                  alt="Fiverr"
+                  className="w-5 h-5 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all"
+                />
               </a>
               <a
                 href="mailto:ziadmohamed345@gmail.com"
