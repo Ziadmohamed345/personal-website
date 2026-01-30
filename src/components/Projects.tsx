@@ -42,7 +42,8 @@ const Projects = () => {
         "Slack",
         "Jira",
       ],
-      projectShowcase: "https://arabni-project-showecase-yby7.vercel.app/",
+      projectShowcase:
+        "https://www.figma.com/proto/IS5GgZmgNT7F0jTtaUWYJZ/Arabni-Screens?node-id=0-1&t=NshBCRNeb07F73D8-1",
       codeUrl: "https://github.com/Ziadmohamed345/arabni-project-showecase.git",
       image: "assets/Arabni/ArabniScreens_page-0010.png",
       features: [
@@ -69,25 +70,6 @@ const Projects = () => {
         "Secure telemedicine integration",
         "Real-time service management",
         "Healthcare data encryption",
-      ],
-    },
-    {
-      id: "rungroop",
-      title: "Rungroop Web App",
-      description:
-        "Rungroops is an online platform for runners. This platform will help you to find clubs, schedule events, and meet other runners in your area.",
-      role: "Backend Developer",
-      type: "Web Application",
-      icon: Monitor,
-      technologies: ["ASP.NET", "C#", "MS SQL Server", "Web API"],
-      liveUrl: "https://rungroop.com/",
-      codeUrl: "https://github.com/Ziadmohamed345/RunGroopWebApp.git",
-      image: "/assets/Rungroop/HomePage.png",
-      features: [
-        "Connects runners with local groups and events",
-        "Allows creating and joining running clubs",
-        "Provides routes and places to run",
-        "Supports Strava and Google sign-in",
       ],
     },
   ];
@@ -129,7 +111,7 @@ const Projects = () => {
                     <div className="relative">
                       <div
                         className={`${
-                          ["egycan", "qurenet", "rungroop"].includes(project.id)
+                          ["egycan", "qurenet"].includes(project.id)
                             ? "w-100 h-100"
                             : "w-80 h-100"
                         } bg-gradient-to-br from-primary/10 to-accent/10 rounded-xl flex items-center justify-center border border-border overflow-hidden`}
@@ -139,9 +121,7 @@ const Projects = () => {
                             src={project.image}
                             alt={project.title + " screenshot"}
                             className={`object-cover rounded-xl ${
-                              ["egycan", "qurenet", "rungroop"].includes(
-                                project.id
-                              )
+                              ["egycan", "qurenet"].includes(project.id)
                                 ? "w-100 h-full"
                                 : "w-full h-full"
                             }`}
