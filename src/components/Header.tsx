@@ -41,7 +41,7 @@ const Header = () => {
               </button>
             ))}
             <a
-              href="/public/assets/Ziad_Abdelaal_CV.pdf"
+              href="/assets/Ziad_Abdelaal_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -78,7 +78,7 @@ const Header = () => {
                   {item.label}
                 </button>
               ))}
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/assets/Ziad_Abdelaal_CV.pdf" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" size="sm" className="w-fit">
                   <Download className="w-4 h-4 mr-2" />
                   Resume
