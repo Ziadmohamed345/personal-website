@@ -6,6 +6,32 @@ import { ExternalLink, Github, Smartphone, Monitor } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
+      id: "zayan",
+      title: "Zayan Art Gallery",
+      description:
+        "An elegant art gallery website showcasing unique artistic creations. Features a modern collection display, detailed artwork information, and seamless browsing experience for art enthusiasts.",
+      role: "Full-stack Developer",
+      type: "Web Application",
+      icon: Monitor,
+      technologies: [
+        "React",
+        "Supabase",
+        "TypeScript",
+        "Vite",
+        "shadcn-ui",
+        "Tailwind CSS",
+      ],
+      liveUrl: "https://zayan-for-decoration.vercel.app/",
+      codeUrl: "",
+      image: "assets/Zayan/zayan.png",
+      features: [
+        "Modern art collection display",
+        "Supabase database integration",
+        "Responsive gallery layout",
+        "Elegant UI with shadcn components",
+      ],
+    },
+    {
       id: "egycan",
       title: "EGYCan Factory Website",
       description:
@@ -111,7 +137,7 @@ const Projects = () => {
                     <div className="relative">
                       <div
                         className={`${
-                          ["egycan", "qurenet"].includes(project.id)
+                          ["egycan", "qurenet", "zayan"].includes(project.id)
                             ? "w-100 h-100"
                             : "w-80 h-100"
                         } bg-gradient-to-br from-primary/10 to-accent/10 rounded-xl flex items-center justify-center border border-border overflow-hidden`}
@@ -121,7 +147,9 @@ const Projects = () => {
                             src={project.image}
                             alt={project.title + " screenshot"}
                             className={`object-cover rounded-xl ${
-                              ["egycan", "qurenet"].includes(project.id)
+                              ["egycan", "qurenet", "zayan"].includes(
+                                project.id,
+                              )
                                 ? "w-100 h-full"
                                 : "w-full h-full"
                             }`}
