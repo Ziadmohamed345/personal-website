@@ -40,7 +40,7 @@ const Projects = () => {
       type: "Web Application",
       icon: Monitor,
       technologies: ["React", "TypeScript", "CSS", "Responsive Design"],
-      liveUrl: "https://egycan.vercel.app/",
+      liveUrl: "https://egycan.com.eg/",
       codeUrl: "",
       image: "assets/EGYCan/Egycan-pic.png",
       features: [
